@@ -1,9 +1,6 @@
 # mikktspace
 
-[![crates.io](https://img.shields.io/crates/v/mikktspace.svg)](https://crates.io/crates/mikktspace)
-[![Build Status](https://travis-ci.org/gltf-rs/mikktspace.svg?branch=master)](https://travis-ci.org/gltf-rs/mikktspace)
-
-Port of the [Mikkelsen Tangent Space Algorithm](https://en.blender.org/index.php/Dev:Shading/Tangent_Space_Normal_Maps) reference implementation.
+This is a fork of https://github.com/gltf-rs/mikktspace, which in turn is a port of the [Mikkelsen Tangent Space Algorithm](https://en.blender.org/index.php/Dev:Shading/Tangent_Space_Normal_Maps) reference implementation to Rust. It has been forked for use in the [bevy game engine](https://bevyengine.org/) to be able to update maths crate dependencies in lock-step with bevy releases. It will be vendored in the [bevy repository](https://github.com/bevyengine/bevy) itself as `crates/bevy_mikktspace`.
 
 Requires at least Rust 1.52.1.
 
